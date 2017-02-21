@@ -8,7 +8,7 @@ void pMenu() {
 	cout<<"Pilih Salah satu menu dibawah: "<<endl;
 	cout<<"1. Buat File teks"<<endl;
 	cout<<"2. Tambah data file"<<endl;
-	cout<<"3. Tampilan data file"<<endl;
+	cout<<"3. k kajskda sk"<<endl;
 	cout<<"4. Hapus File teks"<<endl;
 	cout<<"5. Exit"<<endl<<endl;
 }
