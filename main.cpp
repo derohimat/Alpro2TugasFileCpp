@@ -136,10 +136,10 @@ void hapusFile() {
     myFile.open(fileName + TXT_EXT, ios::in);
     if (myFile.is_open()) {
         myFile.close();
-        if (remove(strcat(fileName, TXT_EXT)) != 0)
-            perror("Error deleting file");
-        else
-            puts("File successfully deleted");
+//        if (remove(strcat(fileName, TXT_EXT)) != 0)
+//            perror("Error deleting file");
+//        else
+//            puts("File successfully deleted");
 //        utils.println("File   " + fileData + " telah berhasil dihapus!");
     } else {
         utils.println("Maaf anda harus membuat file terlebih dahulu!");
