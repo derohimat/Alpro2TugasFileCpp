@@ -1,5 +1,5 @@
 //
-// Created by Deni Rohimat on 2/21/17.
+// Created by Deni Rohimat on 2/22/17.
 //
 
 #ifndef SAMPLECPP_UTILS_H
@@ -17,13 +17,9 @@ public:
         char *input;
 
         cout << message;
-        scanf("%s", input);
+//        scanf("%s", input);
+        cin >> input;
         return input;
-    }
-
-public:
-    void print(string message) {
-        cout << message;
     }
 
 public:
@@ -40,8 +36,18 @@ public:
         int i;
 
         cout << message;
-        scanf("%d", i);
+        cin >> i;
         return i;
+    }
+
+public:
+    void print(string message) {
+        cout << message;
+    }
+
+public:
+    void println(string message) {
+        cout << message << "\n";
     }
 };
 
